@@ -9,6 +9,13 @@
       "value": "xxx"
     },
     {
+      "id": "force-timing-yyy",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "YYYY"
+    },
+    {
       "id": "refresh-delay-6000",
       "v": 1,
       "action": "set",
