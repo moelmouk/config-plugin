@@ -1,0 +1,26 @@
+{
+  "version": "2026-03-23",
+  "directives": [
+    {
+      "id": "force-timing-xxx",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "xxx"
+    },
+    {
+      "id": "refresh-delay-6000",
+      "v": 1,
+      "action": "set",
+      "key": "mkpRefreshDelayMs",
+      "value": 6000
+    },
+    {
+      "id": "remove-old-pattern",
+      "v": 1,
+      "action": "remove",
+      "key": "mkpForceTimingTargets",
+      "value": "old-pattern-to-remove"
+    }
+  ]
+}
