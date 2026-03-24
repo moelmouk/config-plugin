@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-24-15:34",
+  "version": "2026-03-24-16:00",
   "directives": [
     {
       "id": "force-timing-001",
@@ -65,11 +65,11 @@
     
     
     {
-      "id": "refresh-delay-6000",
+      "id": "mkpAutoUpdateConfigFromServer001",
       "v": 1,
       "action": "set",
-      "key": "mkpRefreshDelayMs",
-      "value": 10000
+      "key": "mkpAutoUpdateConfigFromServer",
+      "value": false
     },
     {
       "id": "remove-old-pattern",
