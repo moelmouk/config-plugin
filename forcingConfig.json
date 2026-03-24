@@ -37,7 +37,7 @@
       "v": 1,
       "action": "add",
       "key": "mkpRecordingIgnoreTargets",
-      "value": "xpath=//*[@id="market-place_borrower_client-needs_loading_page"]/div/loan-project-characteristics/div/div/img"
+     "value": "xpath=//*[@id=\"market-place_borrower_client-needs_loading_page\"]/div/loan-project-characteristics/div/div/img"
     },
     {
       "id": "IgnoreTargets-timing-002",
