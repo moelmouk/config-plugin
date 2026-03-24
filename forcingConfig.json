@@ -2,18 +2,74 @@
   "version": "2026-03-23",
   "directives": [
     {
-      "id": "force-timing-xxx",
+      "id": "force-timing-001",
       "v": 1,
       "action": "add",
       "key": "mkpForceTimingTargets",
-      "value": "xxx"
+      "value": "market-place_income_maintenance_comparator_cart-document_close-icon"
     },
+    {
+      "id": "force-timing-002",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "_send-quote"
+    },
+    {
+      "id": "force-timing-003",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "id=market-place_income_maintenance_client-needs_cart-action-button_img"
+    },
+    {
+      "id": "force-timing-004",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "_validate-button"
+    },
+
+
+
+  {
+      "id": "IgnoreTargets-timing-001",
+      "v": 1,
+      "action": "add",
+      "key": "mkpRecordingIgnoreTargets",
+      "value": "xpath=//*[@id="market-place_borrower_client-needs_loading_page"]/div/loan-project-characteristics/div/div/img"
+    },
+    {
+      "id": "IgnoreTargets-timing-002",
+      "v": 1,
+      "action": "add",
+      "key": "mkpRecordingIgnoreTargets",
+      "value": "mkp-download"
+    },
+    {
+      "id": "IgnoreTargets-timing-003",
+      "v": 1,
+      "action": "add",
+      "key": "mkpRecordingIgnoreTargets",
+      "value": "typeahead"
+    } ,
+
+
+    {
+      "id": "mkpPlaybackIgnoreTargets-001",
+      "v": 1,
+      "action": "add",
+      "key": "mkpPlaybackIgnoreTargets",
+      "value": "ngb-typeahead"
+    } ,
+    
+    
     {
       "id": "refresh-delay-6000",
       "v": 1,
       "action": "set",
       "key": "mkpRefreshDelayMs",
-      "value": 6000
+      "value": 10000
     },
     {
       "id": "remove-old-pattern",
