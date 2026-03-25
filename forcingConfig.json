@@ -84,6 +84,13 @@
       "action": "add",
       "key": "mkpForceTimingTargets",
       "value": "pingou=TTTTTT"
+    },
+    {
+      "id": "force-timing-targets-007",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "pingou=XXXXXXXX"
     }
   ]
 }
