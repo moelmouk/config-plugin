@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-25-10:21",
+  "version": "2026-03-25-10:34",
   "directives": [
     {
       "id": "force-timing-001",
@@ -70,27 +70,6 @@
       "action": "remove",
       "key": "mkpForceTimingTargets",
       "value": "old-pattern-to-remove"
-    },
-    {
-      "id": "override-timing-targets-001",
-      "v": 1,
-      "action": "add",
-      "key": "mkpOverrideTimingTargets",
-      "value": "xxxxx=99999"
-    },
-    {
-      "id": "force-timing-targets-006",
-      "v": 1,
-      "action": "add",
-      "key": "mkpForceTimingTargets",
-      "value": "pingou=TTTTTT"
-    },
-    {
-      "id": "force-timing-targets-007",
-      "v": 1,
-      "action": "add",
-      "key": "mkpForceTimingTargets",
-      "value": "pingou=XXXXXXXX"
     }
   ]
 }
