@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-00001",
+  "version": "2026-03-25-10:18",
   "directives": [
     {
       "id": "force-timing-001",
@@ -29,15 +29,12 @@
       "key": "mkpForceTimingTargets",
       "value": "_validate-button"
     },
-
-
-
-  {
+    {
       "id": "IgnoreTargets-timing-001",
       "v": 1,
       "action": "add",
       "key": "mkpRecordingIgnoreTargets",
-     "value": "xpath=//*[@id=\"market-place_borrower_client-needs_loading_page\"]/div/loan-project-characteristics/div/div/img"
+      "value": "xpath=//*[@id=\"market-place_borrower_client-needs_loading_page\"]/div/loan-project-characteristics/div/div/img"
     },
     {
       "id": "IgnoreTargets-timing-002",
@@ -52,18 +49,14 @@
       "action": "add",
       "key": "mkpRecordingIgnoreTargets",
       "value": "typeahead"
-    } ,
-
-
+    },
     {
       "id": "mkpPlaybackIgnoreTargets-001",
       "v": 1,
       "action": "add",
       "key": "mkpPlaybackIgnoreTargets",
       "value": "ngb-typeahead"
-    } ,
-    
-    
+    },
     {
       "id": "mkpAutoUpdateConfigFromServer001",
       "v": 1,
@@ -77,6 +70,13 @@
       "action": "remove",
       "key": "mkpForceTimingTargets",
       "value": "old-pattern-to-remove"
+    },
+    {
+      "id": "override-timing-targets-001",
+      "v": 1,
+      "action": "add",
+      "key": "mkpOverrideTimingTargets",
+      "value": "xxxxx=99999"
     }
   ]
 }
