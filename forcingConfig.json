@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-27-12:16",
+  "version": "2026-03-31-11:39",
   "directives": [
     {
       "id": "force-timing-001",
@@ -70,6 +70,13 @@
       "action": "remove",
       "key": "mkpForceTimingTargets",
       "value": "old-pattern-to-remove"
+    },
+    {
+      "id": "force-timing-targets-006",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "EMMA"
     }
   ]
 }
