@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-12-11:40",
+  "version": "2026-05-12-12:11",
   "directives": [
     {
       "id": "force-timing-001",
@@ -91,6 +91,13 @@
       "action": "add",
       "key": "mkpForceTimingTargets",
       "value": "send-offer-subscriber-selection_legal-form_legal-subscriber-form_address_view-toggle_input-zipcode_select-city_input-select"
+    },
+    {
+      "id": "progressive-type-patterns-001",
+      "v": 1,
+      "action": "add",
+      "key": "mkpProgressiveTypePatterns",
+      "value": "form_address_view-toggle_input-zipcode_input"
     }
   ]
 }
