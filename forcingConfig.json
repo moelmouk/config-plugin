@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-12-12:11",
+  "version": "2026-10-07-15:35",
   "directives": [
     {
       "id": "force-timing-001",
@@ -98,6 +98,13 @@
       "action": "add",
       "key": "mkpProgressiveTypePatterns",
       "value": "form_address_view-toggle_input-zipcode_input"
+    },
+    {
+      "id": "random-word-field-patterns-001",
+      "v": 1,
+      "action": "add",
+      "key": "mkpRandomWordFieldPatterns",
+      "value": "market-place_income_maintenance_client-needs_info-project_last-name"
     }
   ]
 }
