@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-15-14:08",
+  "version": "2026-10-15-14:12",
   "directives": [
     {
       "id": "force-timing-001",
@@ -105,6 +105,13 @@
       "action": "add",
       "key": "mkpRandomWordFieldPatterns",
       "value": "market-place_income_maintenance_client-needs_info-project_last-name"
+    },
+    {
+      "id": "force-timing-targets-009",
+      "v": 1,
+      "action": "add",
+      "key": "mkpForceTimingTargets",
+      "value": "jarom-parametre"
     }
   ]
 }
